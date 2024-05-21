@@ -1,12 +1,12 @@
-const express = require('express')
-const routes = express.Router()
+const express = require('express');
+const routes = express.Router();
 
-routes.get("/", function(req, res){
-    return res.redirect("/pages")
-})
+routes.get("/", function(req, res) {
+    return res.redirect("/pages");
+});
 
-routes.get('/pages', function (req, res) {
-    return res.render('pages/index')
-})
+routes.get('/pages', function(req, res) {
+    return res.render('index'); // Renderiza views/index.ejs
+});
 
-module.exports = routes
+module.exports = routes;

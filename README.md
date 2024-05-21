@@ -16,3 +16,27 @@ Gosto de tecnologia desde muito novo e desenvolvi uma boa capacidade de aprender
 <a href="mailto:yurimotoshima@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
+
+
+# Estrutura
+
+```sh
+YuriMotoshima/
+├── public/
+│   ├── favicon.png
+│   ├── github.svg
+│   ├── In-Blue-34.png
+│   ├── In-White-34.png
+│   ├── scripts.js
+│   └── styles.css
+├── views/
+│   └── index.ejs
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+├── routes.js
+├── server.js
+└── utils.js
+
+```
