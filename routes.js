@@ -6,6 +6,7 @@ routes.get("/", function(req, res) {
 });
 
 routes.get('/pages', function(req, res) {
+    console.log("Rendering index.ejs");
     return res.render('index'); // Renderiza views/index.ejs
 });
 

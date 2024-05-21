@@ -32,6 +32,8 @@ YuriMotoshima/
 ├── views/
 │   └── index.ejs
 ├── .gitignore
+├── browserSync.config.js
+├── nodemon.json
 ├── package-lock.json
 ├── package.json
 ├── README.md

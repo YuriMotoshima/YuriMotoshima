@@ -1,0 +1,29 @@
+{
+    "name": "yurimotoshima",
+    "version": "1.0.0",
+    "description": "Olá, meu nome é Yuri Motoshima !",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js",
+        "serve": "nodemon server.js && browser-sync start --config browserSync.config.js --no-notify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YuriMotoshima/YuriMotoshima.git"
+    },
+    "author": "Yuri Motoshima",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YuriMotoshima/YuriMotoshima/issues"
+    },
+    "homepage": "https://github.com/YuriMotoshima/YuriMotoshima#readme",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.27.11",
+        "nodemon": "^2.0.22"
+    }
+}
