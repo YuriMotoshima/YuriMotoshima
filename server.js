@@ -7,7 +7,8 @@ server.use(express.static("public"));
 server.use(routes);
 
 // Configuração do motor de visualização
-server.set("view engine", "ejs");
+// server.set("view engine", "ejs");
+server.set("view engine", "html");
 
 // Configuração para onde estão localizadas as views
 server.set("views", "views");
