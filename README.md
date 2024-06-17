@@ -22,6 +22,8 @@ Gosto de tecnologia desde muito novo e desenvolvi uma boa capacidade de aprender
 
 ```sh
 YuriMotoshima/
+├── data/
+│   ├── data_html.js
 ├── public/
 │   ├── favicon.png
 │   ├── github.svg
@@ -32,7 +34,6 @@ YuriMotoshima/
 ├── views/
 │   └── index.ejs
 ├── .gitignore
-├── browserSync.config.js
 ├── nodemon.json
 ├── package-lock.json
 ├── package.json
@@ -40,5 +41,4 @@ YuriMotoshima/
 ├── routes.js
 ├── server.js
 └── utils.js
-
 ```
