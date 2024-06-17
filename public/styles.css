@@ -18,6 +18,17 @@ header {
   text-align: center;
 }
 
+main {
+  padding: 2em;
+}
+
+.container-about,
+.container-projects,
+.container-contact {
+  margin-bottom: 2em;
+}
+
+/* Section menu */
 .nav {
   display: inline-flex;
   position: relative;
@@ -79,6 +90,7 @@ header {
   }
 }
 
+/* Home */
 .container-home {
   margin: auto 20%;
   display: flex;
@@ -93,24 +105,6 @@ header {
   max-width: 40vw;
 }
 
-footer {
-  width: 100%;
-  background: #EEEEEE;
-  padding: 23px 23px;
-  text-align: center;
-  font-size: 14px;
-  color: #999999;
-}
-
-/* Additional Styles */
-main {
-  padding: 2em;
-}
-
-.container-about, .container-projects, .container-contact {
-  margin-bottom: 2em;
-}
-
 .container-image-avatar {
   text-align: center;
   margin-bottom: 1em;
@@ -119,6 +113,18 @@ main {
 .container-description {
   text-align: center;
 }
+
+.container-description a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #4b208c;
+  color: #ffffff;
+  border-radius: 35px;
+  margin-top: 35px;
+}
+
+/* Footer */
 
 .url-linkedin {
   display: flex;
@@ -133,4 +139,13 @@ main {
 .url-linkedin img {
   width: 34px;
   height: 34px;
+}
+
+footer {
+  width: 100%;
+  background: #EEEEEE;
+  padding: 23px 23px;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
 }
