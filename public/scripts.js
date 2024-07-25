@@ -45,3 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
   handleIndicator(document.querySelector('.nav-item.is-active'));
 
 });
+
+// botoes que direcionam para o github
+document.querySelectorAll('.project-button').forEach(button => {
+    button.addEventListener('click', function() {
+        const githubUrl = this.getAttribute('data-github');
+        window.open(githubUrl, '_blank');
+    });
+});
